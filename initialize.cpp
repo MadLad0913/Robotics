@@ -9,6 +9,6 @@ void initialize() {
   driveLeftBack.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
   driveRightFront.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
   driveRightBack.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
-	liftLeft.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
-	liftRight.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+	liftLeft.set_brake_mode(pros::E_MOTOR_BRAKE_BRAKE);
+	liftRight.set_brake_mode(pros::E_MOTOR_BRAKE_BRAKE);
 }
